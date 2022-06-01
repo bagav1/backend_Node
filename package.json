@@ -1,0 +1,32 @@
+{
+  "name": "node_n_react",
+  "version": "1.0.0",
+  "description": "Backend for the Node and React example",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Bryan Alexis Garcia Rubio",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "4.18.1",
+    "mysql2": "2.3.3",
+    "sequelize": "6.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.16",
+    "standard": "17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "rules": {
+      "indent": [
+        "error",
+        2
+      ],
+      "no-unused-vars": "off"
+    }
+  }
+}
