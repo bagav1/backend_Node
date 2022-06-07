@@ -41,7 +41,12 @@ CREATE TABLE `people` (
 
 LOCK TABLES `people` WRITE;
 /*!40000 ALTER TABLE `people` DISABLE KEYS */;
-INSERT INTO `people` VALUES (1,'Juanito','Gutierrez',23,'juan.g@mail.com','3214563454',0,1250000),(2,'Javier','Arevalo',36,'javi.a@mail.com','3121349036',0,2250000),(3,'Erika','Rincon',36,'erica.r@mail.com','3131543736',0,2350000),(4,'Juliana','Zapata',25,'juliana.z@mail.com','3211343754',1,1800000),(5,'Miguel','Aguirre',25,'miguel.a@mail.com','3132546734',0,1870000);
+INSERT INTO `people` VALUES
+(1,'Juanito','Gutierrez',23,'juan.g@mail.com','3214563454',0,1250000),
+(2,'Javier','Arevalo',36,'javi.a@mail.com','3121349036',0,2250000),
+(3,'Erika','Rincon',36,'erica.r@mail.com','3131543736',0,2350000),
+(4,'Juliana','Zapata',25,'juliana.z@mail.com','3211343754',1,1800000),
+(5,'Miguel','Aguirre',25,'miguel.a@mail.com','3132546734',0,1870000);
 /*!40000 ALTER TABLE `people` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
